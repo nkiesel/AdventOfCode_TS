@@ -1,0 +1,19 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+package-lock.json
+
+.npm
+
+# Stores VSCode versions used for testing VSCode extensions
+.vscode-test
