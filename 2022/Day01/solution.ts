@@ -1,4 +1,3 @@
-import { describe, expect, test } from 'vitest'
 import { readData } from '../utils'
 
 const sample: string[] = `
@@ -60,17 +59,17 @@ function part1_2(input: string[], top: number): number {
 describe('Day 1', () => {
     const input = readData(__dirname)
 
-    test('part 1', () => {
+    it('part 1', () => {
         expect(part1(sample)).toBe(24000)
         expect(part1(input)).toBe(67027)
     })
 
-    test('part 2', () => {
+    it('part 2', () => {
         expect(part2(sample)).toBe(45000)
         expect(part2(input)).toBe(197291)
     })
     
-    test('combined', () => {
+    it('combined', () => {
         expect(part1_2(input, 1)).toBe(67027)
         expect(part1_2(input, 3)).toBe(197291)
     })
