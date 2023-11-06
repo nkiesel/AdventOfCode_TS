@@ -25,7 +25,11 @@ Running `npm test` will execute all the existing tests.
 
 # IDE support
 
-For IntelliJ Ultimate, the built-in debugging support should allow to directly execute individual tests. For VS-Code,
-you should first install the `Vitest` extension from the official Vs-Code extension marketplace.
+### IntelliJ
+For IntelliJ Ultimate, the built-in debugging support should allow to directly execute individual tests. 
+
+### VS-Code
+For VS-Code, you should first install the [Jest (by Orta)](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest) extension from the official Vs-Code extension marketplace.
+
 
 [Advent of Code]: https://adventofcode.com/
