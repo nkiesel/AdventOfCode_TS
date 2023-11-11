@@ -1,6 +1,7 @@
 # Advent of Code in Typescript
 
-This is a simple framework for solving [Advent of Code] (aka [AoC]) puzzles using Typescript.
+This is a simple framework for solving [Advent of Code] (aka [AoC]) puzzles using Typescript. To use it for your
+solutions, fork this project on GitHub so that you can share your solutions.
 
 Every day, [AoC] publishes a new puzzle in 2 parts. The second part is only accessible once you solved the first part. 
 Together with the puzzle, [AoC] provides a user-specific input file for the puzzle. Thus, this repo has a separate 
@@ -15,10 +16,21 @@ instructions by replacing `2022/Day02` with the correct year and day:
 5. Repeat steps 3 and 4 for part 2
 6. Enjoy!
 
+
 ## Setup
 
-Make sure to have a recent NodeJs version installed (version 16 or higher), and then run `npm i`. Then sign up for 
+Make sure to have a recent NodeJs version installed (version 16 or higher), and run `npm i`. Also sign up for 
 [AoC] to get access to the personalized puzzle inputs.
+
+This repo contains the solution for day 1 of 2022 for a personal input file. Thus, to get your 2 gold stars for that day,
+you must
+
+1. Download your input for day 1 and replace the content of `2022/Day01/input` with your downloaded data
+2. Run the tests of `2022/Day01/solution.ts`, which will very likely fail due to the updated `input`
+3. Replace the expected results with the actual results to fix the tests
+4. Enter the results on [AoC]
+5. You got your first 2 gold stars!!!
+
 
 # Command line execution
 
