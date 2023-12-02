@@ -1,4 +1,3 @@
-import { describe, expect, test } from 'vitest'
 import { readData } from '../utils'
 
 const sample: string[] = `
