@@ -21,4 +21,4 @@ Array.prototype.chunkedBy = function <T>(predicate: (item: T, index?: number) =>
     return result
 }
 
-export const readData = (dir: string): string[] => fs.readFileSync(path.join(dir, 'input'), 'utf8').split('\n')
+export const readData = (dir: string): string[] => fs.readFileSync(path.join(dir, 'input'), 'utf8').split('\n').slice(0, -1)
